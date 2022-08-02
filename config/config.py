@@ -3,7 +3,7 @@ from discord import Colour
 ### Required
 PREFIX = ["/", "."]
 
-DISCORD_TOKEN = "NjMxNDAyNzgwODMzMDg3NTA2.GqX9W4.2Xm7FXhtTJTDGDffTAJG7Im9Tg18HvuE75Has4"
+DISCORD_TOKEN = ""
 
 # default embed color
 embed_color = Colour.dark_red()
