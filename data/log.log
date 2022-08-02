@@ -1,0 +1,28 @@
+08/02/2022 01:30:46 AM logging in using static token
+08/02/2022 01:30:47 AM Shard ID None has sent the IDENTIFY payload.
+08/02/2022 01:30:47 AM Shard ID None has connected to Gateway: ["gateway-prd-main-dsv2",{"micros":146847,"calls":["discord-sessions-blue-prd-2-71",{"micros":138390,"calls":["start_session",{"micros":109138,"calls":["discord-api-f8dd45c-2fb77",{"micros":94614,"calls":["get_user",{"micros":23579},"add_authorized_ip",{"micros":8592},"get_guilds",{"micros":10894},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":15352,"calls":[]}]}]}] (Session ID: 79a5fc0445af49c319311cfdf0511f05).
+08/02/2022 01:30:49 AM Syncing commands...
+08/02/2022 01:30:52 AM Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<SlashCommand.sync_all_commands() done, defined at /home/namspro/work/probably-epis-bot/.env/lib/python3.8/site-packages/discord_slash/client.py:416> exception=Forbidden('403 Forbidden (error code: 50001): Missing Access')>
+Traceback (most recent call last):
+  File "/home/namspro/work/probably-epis-bot/.env/lib/python3.8/site-packages/discord_slash/client.py", line 440, in sync_all_commands
+    existing_cmds = await self.req.get_all_commands(guild_id=scope)
+  File "/home/namspro/work/probably-epis-bot/.env/lib/python3.8/site-packages/discord/http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access
+08/02/2022 01:38:44 AM Cleaning up tasks.
+08/02/2022 01:38:44 AM Cleaning up after 2 tasks.
+08/02/2022 01:38:44 AM All tasks finished cancelling.
+08/02/2022 01:38:44 AM Closing the event loop.
+08/02/2022 01:38:46 AM logging in using static token
+08/02/2022 01:38:47 AM Shard ID None has sent the IDENTIFY payload.
+08/02/2022 01:38:47 AM Shard ID None has connected to Gateway: ["gateway-prd-main-m2fw",{"micros":75766,"calls":["discord-sessions-blue-prd-2-48",{"micros":74187,"calls":["start_session",{"micros":44495,"calls":["discord-api-f8dd45c-rmj6n",{"micros":40098,"calls":["get_user",{"micros":9506},"add_authorized_ip",{"micros":2933},"get_guilds",{"micros":3883},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":28203,"calls":[]}]}]}] (Session ID: 41c18dc77eb7943fe4d2d2f16a4a3ec4).
+08/02/2022 01:38:49 AM Syncing commands...
+08/02/2022 01:38:51 AM Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<SlashCommand.sync_all_commands() done, defined at /home/namspro/work/probably-epis-bot/.env/lib/python3.8/site-packages/discord_slash/client.py:416> exception=Forbidden('403 Forbidden (error code: 50001): Missing Access')>
+Traceback (most recent call last):
+  File "/home/namspro/work/probably-epis-bot/.env/lib/python3.8/site-packages/discord_slash/client.py", line 440, in sync_all_commands
+    existing_cmds = await self.req.get_all_commands(guild_id=scope)
+  File "/home/namspro/work/probably-epis-bot/.env/lib/python3.8/site-packages/discord/http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access

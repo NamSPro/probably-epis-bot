@@ -3,19 +3,19 @@ from discord import Colour
 ### Required
 PREFIX = ["/", "."]
 
-DISCORD_TOKEN = ""
+DISCORD_TOKEN = "NjMxNDAyNzgwODMzMDg3NTA2.GqX9W4.2Xm7FXhtTJTDGDffTAJG7Im9Tg18HvuE75Has4"
 
 # default embed color
 embed_color = Colour.dark_red()
 
 # Your server id (for adding fanart)
-admin_guild = 0
+admin_guild = 594200919051075585
 
 # guild_ids for faster slash command deploy (global slash command take 1 hour to deploy) / leave None to set to global
-guild_ids = [0]
+guild_ids = [594200919051075585, 719903030967009371]
 
 # put an unused channel for bot message cache (the bot can't edit message with file so we need to send a embed and get that embed to edit)
-cache_channel = 0
+cache_channel = 900647122414764042
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ POLICY = "https://epis-bot-policy.netlify.app/"
 donate = ""
 
 # System OS
-windows = True
+windows = False
 
 # Send announcements from official page
 parallel_tasks = False # Set to True if the bot has large amount of channels registered, otherwise set to False is recommended
